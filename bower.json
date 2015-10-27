@@ -1,0 +1,28 @@
+{
+  "name": "foundation",
+  "description": "foundation website",
+  "main": "index.html",
+  "authors": [
+    "pramod"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "foundation"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "homepage": "index.html",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {},
+  "dependencies": {
+    "foundation": "~5.5.3"
+  }
+}
