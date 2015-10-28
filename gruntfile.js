@@ -24,6 +24,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-sass');
 
   // Default task(s).
-  grunt.registerTask('default', ['wiredep','sass']);
+  grunt.registerTask('default', ['sass']);
 
 };
