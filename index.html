@@ -4,10 +4,41 @@
 	<title>Zurb Foundation</title>
 	<!-- bower:css -->
 	<!-- endbower -->
+	<link rel="stylesheet" type="text/css" href="bower/foundation/css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="bower/foundation/css/foundation.css">
 	<link rel="stylesheet" type="text/css" href="dist/css/main.css">
 </head>
 <body>
-	<h1>Hello World!</h1>
+	<header class="contain-to-grid">
+		<nav class="top-bar" data-topbar role="navigation">
+			<ul class="title-area">
+				<li class="name">
+					<h1><a href="#">My Site</a></h1>
+				</li>
+				<li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+			</ul>
+
+			<section class="top-bar-section">
+				<ul class="right">
+					<li><a href="#">Nav1</a></li>
+					<li><a href="#">Nav2</a></li>
+					<li class="has-dropdown">
+						<a href="#">Dropdown</a>
+						<ul class="dropdown">
+							<li><a href="#">Item1</a></li>
+							<li><a href="#">Item2</a></li>
+							<li><a href="#">Item3</a></li>
+							<li><a href="#">Item4</a></li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="left">
+					<li><a href="#">Nav1</a></li>
+					<li><a href="#">Nav2</a></li>
+				</ul>
+			</section>
+		</nav>
+	</header>
 
 	<!-- bower:js -->
 	<script src="bower/modernizr/modernizr.js"></script>
