@@ -1,3 +1,9 @@
 node_modules
 bower
 .sass-cache
+js
+sass
+bower.json
+package.json
+gruntfile.js
+.bowerrc
